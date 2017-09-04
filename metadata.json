@@ -1,0 +1,153 @@
+[
+[
+
+]
+,
+[
+  {
+    "message": "class not documented",
+    "line": 1,
+    "column": 1,
+    "kind": "warning",
+    "check": "documentation",
+    "fullpath": "/etc/puppetlabs/code/environments/production/modules/role/manifests/zabbix/agent.pp",
+    "path": "/etc/puppetlabs/code/environments/production/modules/role/manifests/zabbix/agent.pp",
+    "filename": "agent.pp",
+    "KIND": "WARNING"
+  }
+]
+,
+[
+  {
+    "message": "class not documented",
+    "line": 1,
+    "column": 1,
+    "kind": "warning",
+    "check": "documentation",
+    "fullpath": "/etc/puppetlabs/code/environments/production/modules/role/manifests/zabbix/server.pp",
+    "path": "/etc/puppetlabs/code/environments/production/modules/role/manifests/zabbix/server.pp",
+    "filename": "server.pp",
+    "KIND": "WARNING"
+  }
+]
+,
+[
+  {
+    "message": "class not documented",
+    "line": 1,
+    "column": 1,
+    "kind": "warning",
+    "check": "documentation",
+    "fullpath": "/etc/puppetlabs/code/environments/production/modules/profile/manifests/zabbix/agent.pp",
+    "path": "/etc/puppetlabs/code/environments/production/modules/profile/manifests/zabbix/agent.pp",
+    "filename": "agent.pp",
+    "KIND": "WARNING"
+  }
+]
+,
+[
+  {
+    "message": "class not documented",
+    "line": 1,
+    "column": 1,
+    "kind": "warning",
+    "check": "documentation",
+    "fullpath": "/etc/puppetlabs/code/environments/production/modules/profile/manifests/zabbix/server.pp",
+    "path": "/etc/puppetlabs/code/environments/production/modules/profile/manifests/zabbix/server.pp",
+    "filename": "server.pp",
+    "KIND": "WARNING"
+  }
+]
+,
+[
+  {
+    "message": "class not documented",
+    "line": 1,
+    "column": 1,
+    "kind": "warning",
+    "check": "documentation",
+    "fullpath": "/etc/puppetlabs/code/environments/production/modules/profile/manifests/web.pp",
+    "path": "/etc/puppetlabs/code/environments/production/modules/profile/manifests/web.pp",
+    "filename": "web.pp",
+    "KIND": "WARNING"
+  },
+  {
+    "message": "two-space soft tabs not used",
+    "line": 3,
+    "column": 1,
+    "kind": "error",
+    "check": "2sp_soft_tabs",
+    "fullpath": "/etc/puppetlabs/code/environments/production/modules/profile/manifests/web.pp",
+    "path": "/etc/puppetlabs/code/environments/production/modules/profile/manifests/web.pp",
+    "filename": "web.pp",
+    "KIND": "ERROR"
+  }
+]
+,
+[
+  {
+    "message": "class not documented",
+    "line": 1,
+    "column": 1,
+    "kind": "warning",
+    "check": "documentation",
+    "fullpath": "/etc/puppetlabs/code/environments/production/modules/profile/manifests/db.pp",
+    "path": "/etc/puppetlabs/code/environments/production/modules/profile/manifests/db.pp",
+    "filename": "db.pp",
+    "KIND": "WARNING"
+  }
+]
+,
+[
+  {
+    "message": "class not documented",
+    "line": 1,
+    "column": 1,
+    "kind": "warning",
+    "check": "documentation",
+    "fullpath": "/etc/puppetlabs/code/environments/production/modules/profile/manifests/zabbix.pp",
+    "path": "/etc/puppetlabs/code/environments/production/modules/profile/manifests/zabbix.pp",
+    "filename": "zabbix.pp",
+    "KIND": "WARNING"
+  },
+  {
+    "message": "string containing only a variable",
+    "line": 8,
+    "column": 13,
+    "start_token": "#<PuppetLint::Lexer::Token:0x000000025ee578>",
+    "var_token": "#<PuppetLint::Lexer::Token:0x000000025ede48>",
+    "end_token": "#<PuppetLint::Lexer::Token:0x000000025ed8f8>",
+    "kind": "warning",
+    "check": "only_variable_string",
+    "fullpath": "/etc/puppetlabs/code/environments/production/modules/profile/manifests/zabbix.pp",
+    "path": "/etc/puppetlabs/code/environments/production/modules/profile/manifests/zabbix.pp",
+    "filename": "zabbix.pp",
+    "KIND": "WARNING"
+  }
+]
+,
+[
+  {
+    "message": "profile::zabbix::server not in autoload module layout",
+    "line": 1,
+    "column": 7,
+    "kind": "error",
+    "check": "autoloader_layout",
+    "fullpath": "/etc/puppetlabs/code/environments/production/modules/profile/manifests/server.pp",
+    "path": "/etc/puppetlabs/code/environments/production/modules/profile/manifests/server.pp",
+    "filename": "server.pp",
+    "KIND": "ERROR"
+  },
+  {
+    "message": "class not documented",
+    "line": 1,
+    "column": 1,
+    "kind": "warning",
+    "check": "documentation",
+    "fullpath": "/etc/puppetlabs/code/environments/production/modules/profile/manifests/server.pp",
+    "path": "/etc/puppetlabs/code/environments/production/modules/profile/manifests/server.pp",
+    "filename": "server.pp",
+    "KIND": "WARNING"
+  }
+]
+]
